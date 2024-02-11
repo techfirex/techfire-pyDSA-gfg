@@ -14,4 +14,6 @@ print(nl)
 def getsmaller(l,x):
     return [i for i in l if i < x]
 
+l = [0, 2, 4, 6, 8, 10]
+x = 8
 print(getsmaller(l,x))
