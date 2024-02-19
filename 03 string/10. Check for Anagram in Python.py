@@ -9,14 +9,14 @@ s6 = "abb"
 
 # Naive Solution // Using Sorting // Time Complexity O(nlogn)
 
-def areAnagram(s1,s2):
-    if len(s1) != len(s2):
-        return False
-    s1 = sorted(s1)
-    s2 = sorted(s2)
-    return (s1 == s2)
+# def areAnagram(s1,s2):
+#     if len(s1) != len(s2):
+#         return False
+#     s1 = sorted(s1)
+#     s2 = sorted(s2)
+#     return (s1 == s2)
 
-print(areAnagram(s5,s6))
+# print(areAnagram(s5,s6))
 
 
 # Using own Method // Efficient Solution // Time Complexity O(n)
@@ -35,4 +35,4 @@ def areAnagram2(s1,s2):
             return False
     return True
 
-print(areAnagram(s1,s2))
+print(areAnagram2("allergy","allergic"))
